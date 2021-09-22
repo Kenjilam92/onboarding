@@ -1,0 +1,44 @@
+1) JavaScript:
+Write a function that retrieves the top 3 longest words of a newspaper headline and transforms them into hashtags. If multiple words tie for the same length, retrieve the word that occurs first.
+
+Examples
+getHashTags("How the Avocado Became the Fruit of the Global Trade")
+--> ["#avocado", "#became", "#global"]
+
+getHashTags("Why You Will Probably Pay More for Your Christmas Tree This Year")
+--> ["#christmas", "#probably", "#will"]
+
+getHashTags("Hey Parents, Surprise, Fruit Juice Is Not Fruit")
+--> ["#surprise", "#parents", "#fruit"]
+
+getHashTags("Visualizing Science")
+--> ["#visualizing", "#science"]
+
+3) Java:
+
+Create a function that takes the memory size (ms is a string type) as an argument and returns the actual memory size.
+
+Examples
+actualMemorySize("32GB") --> "29.76GB"
+
+actualMemorySize("2GB") --> "1.86GB"
+
+actualMemorySize("512MB") --> "476MB"
+
+Notes
+-The actual storage loss on a USB device is 7% of the overall memory size!
+-If the actual memory size was greater than 1 GB, round your result to two decimal places.
+-If the memory size after adjustment is smaller then 1 GB, return the result in MB.
+
+4) Python:
+
+The Atbash cipher is an encryption method in which each letter of a word is replaced with its "mirror" letter in the alphabet: A <=> Z; B <=> Y; C <=> X; etc.
+
+Create a function that takes a string and applies the Atbash cipher to it.
+
+Examples
+atbash("apple") --> "zkkov"
+
+atbash("Hello world!") --> "Svool dliow!"
+
+atbash("Christmas is the 25th of December") --> "Xsirhgnzh rh gsv 25gs lu Wvxvnyvi"
